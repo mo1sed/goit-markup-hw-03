@@ -1,0 +1,139 @@
+.span-studio {
+    color:#4D5AE5;
+    font-family: 'Raleway', sans-serif;
+}
+.webstudio-cloud {
+    color:#F4F4FD;
+    font-family: 'Raleway', sans-serif;
+}
+.webstudio-iris {
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #fff;
+}
+p{
+    font-size:16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.17;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-link {
+    font-weight: 500;
+    color: #2E2F42;
+}
+.logo-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-white {
+    background-color: #FFFFFF;
+}
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+.overlay {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+.overlay-footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.overlay-title {
+    text-align: center;
+}
+.team-title {
+    text-align: center;
+    color:#2E2F42;
+    line-height: 1.11;
+}
+.team-member-title {
+    text-align: center;
+    color:#2E2F42;
+}
+.team-member-role {
+    text-align: center;
+    color:#434455;
+}
+.team-center {
+    background-color: #F4F4FD;
+}
+.portfolio-title {
+    text-align: center;
+    color: #2E2F42;
+    line-height: 1.11;
+}
+.portfolio-item-title {
+    color:#2E2F42;
+}
+.portfolio-item-category {
+    color:#434455;
+}
+
+
+
+.change-button:hover {
+    background-color: #404bbf;
+}
+.change-button:focus {
+    background-color: #404bbf;
+}
+
+
+.change-color-address {
+    color: #434455;
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.change-color-address:hover,
+.change-color-address:focus {
+    color: #404bbf;
+}
+address {
+    font-style: normal;
+}
