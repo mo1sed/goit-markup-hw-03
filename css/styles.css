@@ -197,6 +197,7 @@ address {
     padding-top: 120px;
     padding-bottom: 88px;
     justify-content: center;
+    gap: 24px;
 }
 .portfolio-container {
     display: flex;
