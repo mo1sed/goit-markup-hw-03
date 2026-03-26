@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .span-studio {
     color:#4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -9,6 +14,16 @@
 .webstudio-iris {
     color: #2E2F42;
     font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 156px;
+    gap: 40px;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -62,21 +77,36 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-white {
+.header-white-team {
     background-color: #FFFFFF;
 }
+
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 500;   
     font-size: 16px;
     letter-spacing: 0.04em;
     line-height: 1.5;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    border: none;
+    outline: none;
 }
 .overlay {
     background-color: #2E2F42;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 .overlay-footer {
     background-color: #2E2F42;
@@ -84,11 +114,14 @@ button {
 }
 .overlay-title {
     text-align: center;
+    padding-top: 184px;
+    max-width: 496px;
 }
 .team-title {
     text-align: center;
     color:#2E2F42;
     line-height: 1.11;
+    padding-top: 120px;
 }
 .team-member-title {
     text-align: center;
@@ -100,11 +133,15 @@ button {
 }
 .team-center {
     background-color: #F4F4FD;
+    margin: 0 auto;
+    padding: 0 ;
 }
 .portfolio-title {
     text-align: center;
     color: #2E2F42;
     line-height: 1.11;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .portfolio-item-title {
     color:#2E2F42;
@@ -113,7 +150,10 @@ button {
     color:#434455;
 }
 
-
+.change-button {
+    text-align: center;
+    margin-bottom: 192px;
+}
 
 .change-button:hover {
     background-color: #404bbf;
@@ -136,4 +176,59 @@ button {
 }
 address {
     font-style: normal;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 ;
+    max-width: 1158px;
+}
+.features {
+    display: inline-block;
+    max-width: 264px;
+}
+.features-list {
+    display: flex;
+    gap:24px;
+    padding: 120px 156px;
+    justify-content: center;
+}
+.team-title-container {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 88px;
+    justify-content: center;
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0px 24px;
+    justify-content: center;
+}
+.header-white {
+    background-color: #FFFFFF;
+    display: block;
+    width: calc((100% - 48px) / 3);
+    gap: 24px;
+}
+
+.nav-list {
+    display: inline-flex;
+    gap:40px;
+    margin-left: 76px;
+
+}
+
+.change-color {
+    display: inline-flex;
+}
+
+.address-container {
+    display: flex;
+    padding-right: 156px;
+    gap: 40px;
+}
+.address-list {
+    display: inline-flex;
+    gap: 40px;
 }
