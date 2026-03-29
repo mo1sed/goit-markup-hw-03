@@ -16,7 +16,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-header {
+.site-header {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -177,12 +177,19 @@ ul {
     flex-direction: column;
     gap: 72px;
 }
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
 .portfolio-title {
     text-align: center;
     color: #2E2F42;
     line-height: 1.11;
-    padding-top: 120px;
-    padding-bottom: 72px;
 }
 .portfolio-item-title {
     color:#2E2F42;
@@ -226,6 +233,9 @@ ul {
     max-width: 1158px;
 }
 .features {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     width: calc((100% - 72px) / 4);
 }
 .features-list {
@@ -245,7 +255,6 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     padding: 0;
-    padding-bottom: 120px;
 }
 
 .header-white {
@@ -294,7 +303,7 @@ ul {
     gap: 40px;
     align-items: center;
 }
-address {
+.contact-address {
     font-style: normal;
     display: flex;
     align-items: center;
