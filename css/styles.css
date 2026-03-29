@@ -69,6 +69,7 @@ ul {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 .styled-link {
     text-decoration: none;
@@ -233,9 +234,6 @@ ul {
     max-width: 1158px;
 }
 .features {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
     width: calc((100% - 72px) / 4);
 }
 .features-list {
